@@ -15,10 +15,10 @@
 
 		$subject = "Savanna's Coffee House Contact Form";	//This is the message that will be sent back to the person who sent you a message from your contact form.
 
-		//$fromEmail = "contact@carinmurphy.com";		//Change the email address within the quotes to be YOUR host server email address.
 		$fromEmail = "contact@ntka.net";		//Change the email address within the quotes to be YOUR host server email address.
-	//   DO NOT CHANGE THE FOLLOWING LINES  //
+	
 
+		//EmailBody Message
 		$emailBody = "Hello $firstname, \n\nThank you so much for reaching out to us. We will get back to you as soon as possible, via email (:\n\nBest,\nSavanna's Coffee House";			//stores the content of the email
 		$contact = "Person sending a message: \n\n";
 		foreach($_POST as $key => $value)		//Reads through all the name-value pairs. 	$key: field name   $value: value from the form
